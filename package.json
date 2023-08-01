@@ -1,0 +1,28 @@
+{
+  "name": "vitepress-plugin-automatic-sidebar",
+  "version": "0.0.1",
+  "description": "Automatically generate vitepress sidebar",
+  "main": "index.js",
+  "type": "module",
+  "homepage": "",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild"
+  },
+  "keywords": [
+    "vitepress",
+    "auto",
+    "auto sidebar"
+  ],
+  "author": "growydp",
+  "license": "ISC",
+  "devDependencies": {
+    "unbuild": "^1.2.1"
+  }
+}
